@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Swastik Medical Store",
+    "desc": "Built a POS and inventory management system with billing, sales history, low-stock alerts, and JWT role-based access.",
+    "image": "/assets/images/educat/college.jpg",
+    "category": "MERN Stack",
+    "links": {
+      "view": "",
+      "code": "https://github.com/codewith-uttam/medical-store"
+    }
+  },
+  {
+    "name": "Property Management System",
+    "desc": "Authentication, registration, and dashboard features using JWT, bcrypt, and libSQL.",
+    "image": "/assets/images/educat/college.jpg",
+    "category": "Next.js, TypeScript, Prisma",
+    "links": {
+      "view": "",
+      "code": "https://github.com/codewith-uttam/pms"
+    }
+  }
+]
