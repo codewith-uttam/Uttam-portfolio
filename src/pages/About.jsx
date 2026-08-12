@@ -7,7 +7,7 @@ const About = () => {
 
       <div className="row">
         <div className="image">
-          <img draggable="false" className="tilt" src="/assets/images/profile2.jpg" alt="Uttam Kumar" />
+          <img draggable="false" className="tilt" src="/assets/images/profile2.jpg" alt="Uttam Kumar" loading="lazy" />
         </div>
         <div className="content">
           <h3>I'm Uttam Kumar</h3>

@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="container">
         <div className="content">
           <div className="image-box">
-            <img draggable="false" src="/assets/images/contact1.png" alt="Contact" />
+            <img draggable="false" src="/assets/images/contact1.png" alt="Contact" loading="lazy" />
           </div>
         <form id="contact-form">
           <div className="form-group">

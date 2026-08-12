@@ -10,7 +10,7 @@ const Education = () => {
 
         <div className="box">
           <div className="image">
-            <img draggable="false" src="/assets/images/educat/college.png" alt="" />
+            <img draggable="false" src="/assets/images/educat/college.png" alt="" loading="lazy" />
           </div>
           <div className="content">
             <h3>B.Tech, Computer Science & Engineering</h3>
@@ -21,7 +21,7 @@ const Education = () => {
 
         <div className="box">
           <div className="image">
-            <img draggable="false" src="/assets/images/educat/college.png" alt="" />
+            <img draggable="false" src="/assets/images/educat/college.png" alt="" loading="lazy" />
           </div>
           <div className="content">
             <h3>Diploma</h3>
@@ -32,7 +32,7 @@ const Education = () => {
 
         <div className="box">
           <div className="image">
-            <img draggable="false" src="/assets/images/educat/iti.png" alt="" />
+            <img draggable="false" src="/assets/images/educat/iti.png" alt="" loading="lazy" />
           </div>
           <div className="content">
             <h3>Intermediate</h3>
@@ -43,7 +43,7 @@ const Education = () => {
 
         <div className="box">
           <div className="image">
-            <img draggable="false" src="/assets/images/educat/school.png" alt="" />
+            <img draggable="false" src="/assets/images/educat/school.png" alt="" loading="lazy" />
           </div>
           <div className="content">
             <h3>Matriculation</h3>
@@ -54,7 +54,7 @@ const Education = () => {
 
         <div className="box">
           <div className="image">
-            <img draggable="false" src="/assets/images/educat/adca.png" alt="" />
+            <img draggable="false" src="/assets/images/educat/adca.png" alt="" loading="lazy" />
           </div>
           <div className="content">
             <h3>ADCA Certification</h3>

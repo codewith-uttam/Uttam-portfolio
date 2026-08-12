@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="box-container">
         {projects.map((project, index) => (
           <div className="box" key={index}>
-            <img draggable="false" src={project.image} alt={project.name} />
+            <img draggable="false" src={project.image} alt={project.name} loading="lazy" />
             <div className="content">
               <div className="tag">
                 <h3>{project.name}</h3>
