@@ -1,24 +1,13 @@
-import { useEffect, useState } from 'react';
+import { projects } from '../data/projects';
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    fetch('/projects.json')
-      .then(res => res.json())
-      .then(data => setProjects(data))
-      .catch(err => console.error("Error fetching projects", err));
-  }, []);
-
   return (
     <section className="work" id="work">
       <h2 className="heading"><i className="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
       <div className="box-container">
         {projects.map((project, index) => (
           <div className="box" key={index}>
-            <div className="image">
-              <img draggable="false" src={project.image} alt={project.name} />
-            </div>
+            <img draggable="false" src={project.image} alt={project.name} />
             <div className="content">
               <div className="tag">
                 <h3>{project.name}</h3>

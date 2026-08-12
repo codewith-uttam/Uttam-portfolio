@@ -1,15 +1,6 @@
-import { useEffect, useState } from 'react';
+import { skills } from '../data/skills';
 
 const Skills = () => {
-  const [skills, setSkills] = useState([]);
-
-  useEffect(() => {
-    fetch('/skills.json')
-      .then(res => res.json())
-      .then(data => setSkills(data))
-      .catch(err => console.error("Error fetching skills", err));
-  }, []);
-
   return (
     <section className="skills" id="skills">
         <h2 className="heading"><i className="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
