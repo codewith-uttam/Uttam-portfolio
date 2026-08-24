@@ -34,7 +34,7 @@ const About = () => {
               <span>View Resume</span>
               <i className="fas fa-external-link-alt"></i>
             </a>
-            <a href="https://drive.google.com/uc?export=download&id=1dWtoHjQgEPpGkE2z6fXP5qSKY4sU75Xp" download className="btn">
+            <a href="https://drive.google.com/uc?export=download&id=1iSG3ZLOuf9oLOQbhuXIspcC9NQmfEI-6" download className="btn">
               <span>Download CV</span>
               <i className="fas fa-download"></i>
             </a>

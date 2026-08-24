@@ -1,7 +1,12 @@
-
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+  useEffect(() => {
+    if (window.initParticles) window.initParticles();
+    if (window.initTyped) window.initTyped();
+  }, []);
+
   return (
     <section className="home" id="home">
       {/* We keep particles-js div if we want particles on all pages, 

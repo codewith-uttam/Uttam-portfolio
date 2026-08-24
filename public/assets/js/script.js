@@ -9,10 +9,13 @@ $(document).ready(function () {
         $('#menu').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
 
-        if (window.scrollY > 60) {
-            document.querySelector('#scroll-top').classList.add('active');
-        } else {
-            document.querySelector('#scroll-top').classList.remove('active');
+        let scrollTopBtn = document.querySelector('#scroll-top');
+        if (scrollTopBtn) {
+            if (window.scrollY > 60) {
+                scrollTopBtn.classList.add('active');
+            } else {
+                scrollTopBtn.classList.remove('active');
+            }
         }
 
         // scroll spy
@@ -70,13 +73,17 @@ document.addEventListener('visibilitychange',
 
 
 // <!-- typed js effect starts -->
-new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
-    loop: true,
-    typeSpeed: 50,
-    backSpeed: 25,
-    backDelay: 500,
-});
+window.initTyped = function() {
+    if (document.querySelector('.typing-text')) {
+        new Typed(".typing-text", {
+            strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+            loop: true,
+            typeSpeed: 50,
+            backSpeed: 25,
+            backDelay: 500,
+        });
+    }
+};
 // <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
