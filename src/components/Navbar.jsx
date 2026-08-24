@@ -1,21 +1,17 @@
-import { Link, useLocation } from 'react-router-dom';
-
 const Navbar = () => {
-  const location = useLocation();
-
   return (
     <header>
-        <Link to="/" className="logo"><i className="fab fa-node-js"></i> Uttam</Link>
+        <a href="#home" className="logo"><i className="fab fa-node-js"></i> Uttam</a>
 
         <div id="menu" className="fas fa-bars"></div>
         <nav className="navbar">
             <ul>
-            <li><Link className={location.pathname === '/' ? 'active' : ''} to="/">Home</Link></li>
-            <li><Link className={location.pathname === '/about' ? 'active' : ''} to="/about">About</Link></li>
-            <li><Link className={location.pathname === '/skills' ? 'active' : ''} to="/skills">Skills</Link></li>
-            <li><Link className={location.pathname === '/education' ? 'active' : ''} to="/education">Education</Link></li>
-            <li><Link className={location.pathname === '/projects' ? 'active' : ''} to="/projects">Projects</Link></li>
-            <li><Link className={location.pathname === '/contact' ? 'active' : ''} to="/contact">Contact</Link></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>

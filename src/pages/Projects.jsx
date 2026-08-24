@@ -15,11 +15,7 @@ const Projects = () => {
               <div className="desc">
                 <p>{project.desc}</p>
                 <div className="btns">
-                  {project.links.view && (
-                    <a href={project.links.view} className="btn" target="_blank" rel="noreferrer">
-                      <i className="fas fa-eye"></i> View
-                    </a>
-                  )}
+
                   {project.links.code && (
                     <a href={project.links.code} className="btn" target="_blank" rel="noreferrer">
                       <i className="fas fa-code"></i> Code
