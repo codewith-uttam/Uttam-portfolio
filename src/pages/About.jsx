@@ -30,7 +30,7 @@ const About = () => {
           </div>
 
           <div className="resumebtn">
-            <a href="https://drive.google.com/file/d/1dWtoHjQgEPpGkE2z6fXP5qSKY4sU75Xp/view?usp=drive_link" target="_blank" rel="noreferrer" className="btn">
+            <a href="https://drive.google.com/file/d/1iSG3ZLOuf9oLOQbhuXIspcC9NQmfEI-6/view?usp=sharing" target="_blank" rel="noreferrer" className="btn">
               <span>View Resume</span>
               <i className="fas fa-external-link-alt"></i>
             </a>
