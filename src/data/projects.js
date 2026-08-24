@@ -10,13 +10,13 @@ export const projects = [
     }
   },
   {
-    name: "Property Management System",
-    desc: "Authentication, registration, and dashboard features using JWT, bcrypt, and libSQL.",
-    image: "/assets/images/educat/college.png",
-    category: "Next.js, TypeScript, Prisma",
+    name: "Real-Time Collaborative Code Editor",
+    desc: "A real-time, collaborative web-based code editor that allows multiple users to write HTML, CSS, and JavaScript simultaneously, with a live preview of the output.",
+    image: "/assets/images/projects/realtime.jpg",
+    category: "React, Node.js, WebSockets, Yjs",
     links: {
       view: "",
-      code: "https://github.com/codewith-uttam/pms"
+      code: "https://github.com/codewith-uttam/Real-Time-Collaborative-Code-Editor"
     }
   }
 ];

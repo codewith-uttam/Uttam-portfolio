@@ -22,7 +22,7 @@ const Projects = () => {
                   )}
                   {project.links.code && (
                     <a href={project.links.code} className="btn" target="_blank" rel="noreferrer">
-                      Code <i className="fas fa-code"></i>
+                      <i className="fas fa-code"></i> Code
                     </a>
                   )}
                 </div>

@@ -408,6 +408,9 @@ header .navbar ul li a:hover {
 }
 .resumebtn {
   margin-top: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
@@ -453,6 +456,10 @@ header .navbar ul li a:hover {
   }
   .about .row .content .box-container {
     gap: 0;
+  }
+  .resumebtn {
+    flex-direction: column;
+    align-items: center;
   }
 }
 /* about media queries ends*/
